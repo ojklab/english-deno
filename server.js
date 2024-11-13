@@ -28,7 +28,7 @@ Deno.serve(async (req) => {
   const body = JSON.stringify(obj);
   return new Response(body, {
     headers: {
-      'Access-Control-Allow-Origin': 'https://Ai-ugok.github.io',
+      'Access-Control-Allow-Origin': 'https://ai-ugok.github.io',
       'content-type': 'application/json; charset=utf-8'
     }
   });
